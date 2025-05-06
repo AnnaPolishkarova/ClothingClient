@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ClothingClientTests.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\ClothingClientTests.dir/objects.a @CMakeFiles\ClothingClientTests.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ClothingClientTests.dir/objects.a -Wl,--no-whole-archive -o ClothingClientTests.exe -Wl,--out-implib,libClothingClientTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ClothingClientTests.dir\linkLibs.rsp

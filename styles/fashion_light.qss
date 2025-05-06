@@ -1,0 +1,125 @@
+/* Основные стили */
+QWidget {
+    font-family: "Montserrat";  /* Основной шрифт */
+    font-size: 11pt;
+    background: #FAF7FC;  /* Бело-сиреневый фон */
+    color: #4A3C6F;       /* Темно-сиреневый текст */
+}
+
+/* важные элементы */
+QLabel {
+    font-weight: 500;  /* Средняя насыщенность */
+}
+
+/* Базовый стиль для всех кнопок */
+QPushButton {
+    /* Общие свойства */
+    font-family: "Montserrat SemiBold";
+    font-size: 10pt;
+    border-radius: 6px;
+    padding: 6px 12px;
+    min-width: 80px;
+    color: white;
+
+    /* Градиентный фон */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #9C6ADE,
+                              stop:1 #B591E8);
+    border: 1px solid #7D55C9;
+
+}
+
+/* Состояние hover */
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #8A5ACD,  /* Более темный сиреневый */
+                              stop:1 #A37CE3); /* Более насыщенный */
+}
+
+/* Состояние pressed */
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #7D55C9,
+                              stop:1 #906BD6);
+}
+
+
+/* Формы ввода */
+QLineEdit, QDoubleSpinBox, QTextEdit {
+    font-family: "Montserrat";
+    font-size: 10pt;
+    background: white;
+    border: 1px solid #C2ADE8;
+    padding: 5px;
+}
+
+/* Специальные стили для кнопок спинбокса */
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #9C6ADE, stop:1 #7D55C9);
+    border: 1px solid #6A4AA5;
+    width: 20px;
+    border-radius: 3px;
+}
+
+QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #8A5ACD, stop:1 #6A4AA5);
+}
+
+QDoubleSpinBox::up-arrow {
+    image: url(:/icons/up_arrow.svg); /* иконка */
+    width: 10px;
+    height: 10px;
+}
+
+QDoubleSpinBox::down-arrow {
+    image: url(:/icons/down_arrow.svg); /* иконка */
+    width: 10px;
+    height: 10px;
+}
+
+/* Поля ввода с акцентными кнопками */
+QDoubleSpinBox {
+    border: 1px solid #C2ADE8;
+    border-radius: 4px;
+    padding: 2px;
+    background: white;
+}
+
+
+
+/* Таблица с более контрастными строками */
+QTableView {
+    font-family: "Montserrat";
+    font-size: 10pt;
+    background: white;
+    gridline-color: #D9C8F0;  /* Более яркие линии */
+    alternate-background-color: #EDE2FA;
+    border: 1px solid #D9C8F0;
+    selection-background-color: #d9c8f0; /* Цвет выделенной строки */
+    selection-color: #6a329f; /* Цвет текста выделенной строки */
+}
+
+/* Стиль заголовков столбцов */
+QHeaderView::section {
+    background: #7D55C9;       /* Темно-сиреневый фон */
+    color: white;
+    font-weight: 500;          /* Полужирный */
+    padding: 8px 12px;
+    border: none;
+    font-family: "Montserrat SemiBold";
+}
+
+/* Горизонтальные заголовки */
+QHeaderView::section:horizontal {
+    border-bottom: 2px solid #5A3D9E; /* Акцентная линия снизу */
+}
+
+/* Угловой элемент */
+QTableView QTableCornerButton::section {
+    background: #7D55C9;
+    border: none;
+}
+
+

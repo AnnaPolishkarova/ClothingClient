@@ -1,0 +1,13 @@
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClient.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClientTests.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClient_autogen_timestamp_deps.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClient_autogen.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClientTests_autogen_timestamp_deps.dir
+C:/Users/baxva/Documents/ITMO/3-MPP_Client/cmake-build-debug/CMakeFiles/ClothingClientTests_autogen.dir

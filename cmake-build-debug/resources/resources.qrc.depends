@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="styles/fashion.qss">../styles/fashion_light.qss</file>
+        <file>icons/up_arrow.svg</file>
+        <file>icons/down_arrow.svg</file>
+        <file>fonts/Montserrat-Regular.ttf</file>
+        <file>fonts/Montserrat-SemiBold.ttf</file>
+    </qresource>
+</RCC>

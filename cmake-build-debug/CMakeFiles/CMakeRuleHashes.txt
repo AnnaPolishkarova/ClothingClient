@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+440ae1a8cea4833c4f7dfb969a1938c2 CMakeFiles/ClothingClientTests_autogen
+440ae1a8cea4833c4f7dfb969a1938c2 CMakeFiles/ClothingClient_autogen
+252ae7e7d3793c7f268a32b6ab0c11b1 ClothingClientTests_autogen/timestamp
+b6f92db7480917f2299c4309e9d59ffb ClothingClient_autogen/timestamp
+953f4d4ee608426d95e2a911a0e3d717 qrc_resources.cpp
